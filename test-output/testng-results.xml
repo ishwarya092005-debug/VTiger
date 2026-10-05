@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-01T17:33:30 IST" name="Default suite" finished-at="2026-10-01T17:34:05 IST" duration-ms="35021">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_006.CON_003()[pri:0, instance:testRepo.TC_006@9d5509a]" name="CON_003" class="testRepo.TC_006"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2026-10-01T17:33:30 IST" name="Default test" finished-at="2026-10-01T17:34:05 IST" duration-ms="35021">
+      <class name="testRepo.TC_006">
+        <test-method is-config="true" signature="bsconfig()[pri:0, instance:testRepo.TC_006@9d5509a]" started-at="2026-10-01T17:33:30 IST" name="bsconfig" finished-at="2026-10-01T17:33:30 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsconfig -->
+        <test-method is-config="true" signature="bcConfig(java.lang.String)[pri:0, instance:testRepo.TC_006@9d5509a]" started-at="2026-10-01T17:33:30 IST" name="bcConfig" finished-at="2026-10-01T17:33:32 IST" duration-ms="2421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:testRepo.TC_006@9d5509a]" started-at="2026-10-01T17:33:32 IST" name="bmConfig" finished-at="2026-10-01T17:33:38 IST" duration-ms="5725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="CON_003()[pri:0, instance:testRepo.TC_006@9d5509a]" started-at="2026-10-01T17:33:38 IST" name="CON_003" finished-at="2026-10-01T17:34:02 IST" duration-ms="23730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CON_003 -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:testRepo.TC_006@9d5509a]" started-at="2026-10-01T17:34:02 IST" name="amConfig" finished-at="2026-10-01T17:34:04 IST" duration-ms="2773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:testRepo.TC_006@9d5509a]" started-at="2026-10-01T17:34:04 IST" name="acConfig" finished-at="2026-10-01T17:34:05 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:testRepo.TC_006@9d5509a]" started-at="2026-10-01T17:34:05 IST" name="asConfig" finished-at="2026-10-01T17:34:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- testRepo.TC_006 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<groups>
+<run>
+  <include name = "Smoke"/>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testRepo.TC_005"/>
+      <class name="testRepo.TC_004"/>
+      <class name="testRepo.TC_006"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
